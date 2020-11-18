@@ -1,0 +1,153 @@
+/*.margins and padding */
+.margin-1em { margin:1em; }
+.margin-2em { margin:2em; }
+.margin-3em { margin:3em; }
+.margin-4em { margin:4em; }
+
+.margin-top-1em { margin-top:1em; }
+.margin-top-2em { margin-top:2em; }
+.margin-top-3em { margin-top:3em; }
+.margin-top-4em { margin-top:4em; }
+.margin-top-5em { margin-top:5em; }
+.margin-top-6em { margin-top:6em; }
+.margin-top-7em { margin-top:7em; }
+.margin-top-8em { margin-top:8em; }
+.margin-top-9em { margin-top:9em; }
+.margin-top-10em { margin-top:10em; }
+.margin-top-11em { margin-top:11em; }
+.margin-top-12em { margin-top:12em; }
+
+.margin-right-1em { margin-right:1em; }
+.margin-right-2em { margin-right:2em; }
+.margin-right-3em { margin-right:3em; }
+.margin-right-4em { margin-right:4em; }
+.margin-right-5em { margin-right:5em; }
+.margin-right-6em { margin-right:6em; }
+
+.margin-bottom-1em { margin-bottom:1em; }
+.margin-bottom-2em { margin-bottom:2em; }
+.margin-bottom-3em { margin-bottom:3em; }
+.margin-bottom-4em { margin-bottom:4em; }
+.margin-bottom-5em { margin-bottom:5em; }
+.margin-bottom-6em { margin-bottom:6em; }
+
+.padding-1em { padding:1em; }
+.padding-2em { padding:2em; }
+.padding-3em { padding:3em; }
+.padding-4em { padding:4em; }
+.padding-5em { padding:5em; }
+.padding-6em { padding:6em; }
+
+.margin-left-1em { margin-left:1em; }
+.margin-left-2em { margin-left:2em; }
+.margin-left-3em { margin-left:3em; }
+.margin-left-4em { margin-left:4em; }
+.margin-left-5em { margin-left:5em; }
+.margin-left-6em { margin-left:6em; }
+
+.padding-top-1em { padding-top:1em; }
+.padding-top-2em { padding-top:2em; }
+.padding-top-3em { padding-top:3em; }
+.padding-top-4em { padding-top:4em; }
+.padding-top-5em { padding-top:5em; }
+.padding-top-6em { padding-top:6em; }
+
+.padding-right-1em { padding-right:1em; }
+.padding-right-2em { padding-right:2em; }
+.padding-right-3em { padding-right:3em; }
+.padding-right-4em { padding-right:4em; }
+.padding-right-5em { padding-right:5em; }
+.padding-right-6em { padding-right:6em; }
+
+.padding-bottom-1em { padding-bottom:1em; }
+.padding-bottom-2em { padding-bottom:2em; }
+.padding-bottom-3em { padding-bottom:3em; }
+.padding-bottom-4em { padding-bottom:4em; }
+.padding-bottom-5em { padding-bottom:5em; }
+.padding-bottom-6em { padding-bottom:6em; }
+
+.padding-left-1em { padding-left:1em; }
+.padding-left-2em { padding-left:2em; }
+.padding-left-3em { padding-left:3em; }
+.padding-left-4em { padding-left:4em; }
+.padding-left-5em { padding-left:5em; }
+.padding-left-6em { padding-left:6em; }
+
+.position-relative {
+	position: relative;
+}
+
+.stars-outer {
+    display: inline-block;
+    position: relative;
+    color: #ddd;
+    margin-bottom:5px;
+}
+
+.stars-outer::before {
+    content: "\2606 \2606 \2606 \2606 \2606";
+}
+
+.stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+.stars-inner::before {
+    content: "\2605 \2605 \2605 \2605 \2605";
+    color: #f8ce0b;
+}
+
+.form-control::-moz-placeholder{
+    color: #2c2c2c !important;
+    opacity: 1 !important;
+    /*font-weight:600 !important;*/
+}
+
+.form-control:-moz-placeholder{
+    color: #2c2c2c !important;
+    opacity: 1 !important;
+    /*font-weight:600 !important;*/
+}
+
+.form-control::-webkit-input-placeholder{
+    color: #2c2c2c !important;
+    opacity: 1 !important;
+    /*font-weight:600 !important;*/
+}
+
+.form-control:-ms-input-placeholder{
+    color: #2c2c2c !important;
+    opacity: 1 !important;
+    /*font-weight:600 !important;*/
+}
+
+.form-check-sign::before, .form-control {
+    border-color: #6c757d !important;
+    background-color:#ffffff !important;
+}
+
+.form-check-radio input[type="radio"]:checked+.form-check-sign::after {
+    width: 8px;
+    height: 8px;
+    background-color: #1d64ce;
+    border-color: #1d64ce;
+    border-radius:50%;
+    top: 9px;
+    left: 9px;
+    opacity: 1;
+}
+
+.input-group .input-group-prepend .input-group-text {
+    border-color:#6c757d !important;
+}
+
+/*.form-check, .form-check-label {
+    line-height: inherit !important;
+    font-weight:600 !important;
+}*/
+
