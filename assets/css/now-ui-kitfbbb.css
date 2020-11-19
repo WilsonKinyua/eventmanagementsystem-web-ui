@@ -3432,8 +3432,8 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary {
-    background-color: #f96332;
-    color: #fff
+    background-color: #050505;
+    color: rgb(255, 255, 255)
 }
 
 .btn-primary:hover,
@@ -5526,7 +5526,8 @@ ul li {
     min-height: 53px;
     margin-bottom: 20px;
     -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15)
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+    backg
 }
 
 .navbar a {
@@ -10895,7 +10896,7 @@ img {
         -webkit-box-align: center;
         align-items: center;
         -webkit-transition: all .5s cubic-bezier(0.685, 0.0473, 0.346, 1);
-        transition: all .5s cubic-bezier(0.685, 0.0473, 0.346, 1)
+        transition: all .5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     }
     .navbar .navbar-toggler-bar {
         display: block;
