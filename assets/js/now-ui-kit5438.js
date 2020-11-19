@@ -189,7 +189,7 @@ nowuiKit = {
             if (transparent) {
                 transparent = false;
                 $('.navbar[color-on-scroll]').removeClass('navbar-transparent');
-                $(' #pp-logo').attr('src','http://www.planningpod.com/assets/img/logos/planning-pod-logo.png');
+                $(' #pp-logo').attr('src', 'assets/img/logos/planning-pod-logo-reverse.png');
                 $('.get-started-btn').removeClass('btn-neutral btn-simple');
                 $('.get-started-btn').addClass('btn-primary');
             }
@@ -197,9 +197,9 @@ nowuiKit = {
             if (!transparent) {
                 transparent = true;
                 $('.navbar[color-on-scroll]').addClass('navbar-transparent');
-                $(' #pp-logo').attr('src','http://www.planningpod.com/assets/img/logos/planning-pod-logo-reverse.png');
-               $('.get-started-btn').addClass('btn-neutral btn-simple');
-               $('.get-started-btn').removeClass('btn-primary');
+                $(' #pp-logo').attr('src', 'assets/img/logos/planning-pod-logo-reverse.png');
+                $('.get-started-btn').addClass('btn-neutral btn-simple');
+                $('.get-started-btn').removeClass('btn-primary');
             }
         }
     }, 17),
