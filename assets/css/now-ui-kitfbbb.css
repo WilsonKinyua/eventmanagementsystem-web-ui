@@ -9088,7 +9088,7 @@ img {
 [data-header-color="venue"] {
     background: #1488CC;
     background: -webkit-gradient(linear, left top, left bottom, from(#2B32B2), to(#1488CC));
-    background: linear-gradient(to bottom, #2B32B2, #1488CC)
+    background: linear-gradient(to bottom, #2d681f, #6414cc)
 }
 
 [data-header-color="venue"]:after {
@@ -9163,7 +9163,7 @@ img {
 [data-header-color="landing"] {
     background: #1A2980;
     background: -webkit-gradient(linear, left top, right top, from(#26D0CE), to(#1A2980));
-    background: linear-gradient(to right, #26D0CE, #1A2980)
+    background: linear-gradient(to right, #25410e, #801a52)
 }
 
 [data-header-color="landing"]:after {
