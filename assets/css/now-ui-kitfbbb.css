@@ -9104,15 +9104,15 @@ img {
 }
 
 [data-header-color="floorplan"] {
-    background: #7986CB;
-    background: -webkit-gradient(linear, left top, left bottom, from(#512DA8), to(#7986CB));
-    background: linear-gradient(to bottom, #512DA8, #7986CB)
+    background: #79cba9;
+    background: -webkit-gradient(linear, left top, left bottom, from(#a82d6b), to(#bb79cb));
+    background: linear-gradient(to bottom, #a82d98, #999556)
 }
 
 [data-header-color="floorplan"]:after {
     content: '';
     z-index: -2;
-    background-color: #512DA8;
+    background-color: #a82da8;
     display: block;
     width: 50%;
     height: 175px;
