@@ -210,7 +210,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <h1 class="text-white">Account Login</h1>
+                        <h1 class="text-white">Account Register</h1>
 
                     </div>
                 </div>
@@ -229,7 +229,7 @@
 								  <i class="fal fa-sign-in-alt fa-stack-1x" style="color:rgba(255,255,255,.8); "></i>
 								</span>
                         </div>
-                        <h6 class="category text-info text-center">SIGN IN TO EVENTMS</h6>
+                        <h6 class="category text-info text-center">Register TO EVENTMS</h6>
                         <div id="loading-message" class="text-center" style="display:none;">
                             <i class="fal fa-cog fa-spin fa-4x"></i>
                             <h4>Signing In...</h4>
@@ -239,14 +239,54 @@
                         </div>
                         <form id="currentForm">
                             <div class="form-group">
-                                <label>Username</label>
+                                <label>First Name</label>
                                 <div class="input-group mb-4">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="fal fa-user"></i></span>
                                     </div>
-                                    <input type="text" maxlength="45" name="username" id="username" class="form-control form-control-lg" required validationMessage="Required">
+                                    <input type="text" maxlength="45" name="fname" id="fname" class="form-control form-control-lg" required validationMessage="Required">
                                 </div>
-                                <span class="k-invalid-msg" data-for="username"></span>
+                                <span class="k-invalid-msg" data-for="fname"></span>
+                            </div>
+                            <div class="form-group">
+                                <label>Last Name</label>
+                                <div class="input-group mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fal fa-user"></i></span>
+                                    </div>
+                                    <input type="text" maxlength="45" name="lname" id="lname" class="form-control form-control-lg" required validationMessage="Required">
+                                </div>
+                                <span class="k-invalid-msg" data-for="lname"></span>
+                            </div>
+                            <div class="form-group">
+                                <label>Company</label>
+                                <div class="input-group mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fal fa-user"></i></span>
+                                    </div>
+                                    <input type="text" maxlength="45" name="company" id="company" class="form-control form-control-lg" required validationMessage="Required">
+                                </div>
+                                <span class="k-invalid-msg" data-for="company"></span>
+                            </div>
+                            <div class="form-group">
+                                <label>Job Title</label>
+                                <div class="input-group mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fal fa-user"></i></span>
+                                    </div>
+                                    <input type="text" maxlength="45" name="company" id="company" class="form-control form-control-lg" required validationMessage="Required">
+                                </div>
+                                <span class="k-invalid-msg" data-for="company"></span>
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <div class="input-group mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fal fa-envelope"></i></span>
+                                    </div>
+                                    <input type="email" maxlength="45" name="email" id="email" class="form-control form-control-lg" required validationMessage="Required">
+                                </div>
+                                <span class="k-invalid-msg" data-for="email"></span>
                             </div>
                             <div class="form-group">
                                 <label>Password</label>
@@ -258,23 +298,33 @@
                                 </div>
                                 <span class="k-invalid-msg" data-for="password"></span>
                             </div>
+                            <div class="form-group">
+                                <label>Confirm Password</label>
+                                <div class="input-group mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fal fa-unlock"></i></span>
+                                    </div>
+                                    <input type="password" name="password" id="password" class="form-control form-control-lg" required validationMessage="Required">
+                                </div>
+                                <span class="k-invalid-msg" data-for="password"></span>
+                            </div>
                             <button type="button" id="submit-button" class="btn btn-info btn-lg">Sign In</button>
                             <div class="margin-top-1em">
-                                <a href="register.html">Don't have an account Create one <i class="fa fa-angle-right"></i></a>
+                                <a href="login.html">Have account Login<i class="fa fa-angle-right"></i></a>
                             </div>
                         </form>
                     </div>
                 </div>
                 <div>
-                    Don't have an account?&nbsp;<a href="index-2.html">Learn more</a>
-                    <br />&copy; 2020 Weza Prosoft, LLC. All Rights Reserved.
+                    <!-- Don't have an account?&nbsp;<a href="index-2.html">Learn more</a> -->
+                    <br />&copy; 2021 Weza Prosoft, LLC. All Rights Reserved.
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="loginRouteModal">
+    <!-- <div class="modal fade" id="loginRouteModal">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
@@ -303,7 +353,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
    
     <!-- // footer -->
 
